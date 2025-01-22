@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\Tools\ToolController;
+use App\Http\Controllers\Tools\ToolsController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -8,6 +8,9 @@ Route::get('/', function () {
 });
 
 
-Route::controller(ToolController::class)->prefix('tools')->group(function(){
+Route::controller(ToolsController::class)->prefix('tools')->group(function(){
     Route::get('/','index')->name('tools');
+});
+Route::get('test',function(){
+    return "Working";
 });

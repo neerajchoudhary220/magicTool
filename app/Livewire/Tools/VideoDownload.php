@@ -50,6 +50,11 @@ class VideoDownload extends Component
         $downloadLink = url($storageFilePath);
         
         session()->flash('video_url', $downloadLink);  // Share the download link in session for use in the view
+        $this->resetUrl();
+    }
+
+    public function resetUrl(){
+        $this->videoUrl='';
 
     }
 }
