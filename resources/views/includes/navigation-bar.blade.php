@@ -17,8 +17,8 @@
                         Tools
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item active" href="#">Video Downloader</a></li>
-                        <li><a class="dropdown-item" href="#">Action 2</a></li>
+                        <li><a class="dropdown-item active" href="{{ route('tools.video_downloader') }}">Video Downloader</a></li>
+                        <li><a class="dropdown-item" href="{{ route('tools.translation') }}">Translation</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
