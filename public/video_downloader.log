@@ -1,0 +1,27 @@
+2025-01-26 13:05:08,937 - INFO - Downloaded file: /home/neeraj/Public/neeraj/laravel_11/Laravel-python/magicTools/storage/app/public/videos/1737876902.mp4
+2025-01-26 13:06:09,621 - INFO - Starting download for URL: https://youtube.com/shorts/QfLXKr9QDI8?si=hujPqAzrSxXPMfUp
+2025-01-26 13:06:15,791 - INFO - Download completed successfully: ./1737876969.mp4
+2025-01-26 13:06:15,791 - INFO - Moved the downloaded file to: /home/neeraj/Public/neeraj/laravel_11/Laravel-python/magicTools/storage/app/public/videos/
+2025-01-26 13:06:15,791 - INFO - Downloaded file: /home/neeraj/Public/neeraj/laravel_11/Laravel-python/magicTools/storage/app/public/videos/1737876969.mp4
+2025-01-26 13:16:42,007 - INFO - Starting download for URL: https://youtube.com/shorts/QfLXKr9QDI8?si=hujPqAzrSxXPMfUp
+2025-01-26 13:16:49,098 - ERROR - Error during download: ERROR: unable to open for writing: [Errno 13] Permission denied: './1737877601.mp4.part'
+2025-01-26 13:16:49,099 - ERROR - Failed to download the video. Error: ERROR: unable to open for writing: [Errno 13] Permission denied: './1737877601.mp4.part'
+2025-01-26 13:18:33,004 - INFO - Starting download for URL: https://youtube.com/shorts/QfLXKr9QDI8?si=hujPqAzrSxXPMfUp
+2025-01-26 13:18:39,744 - ERROR - Error during download: ERROR: unable to open for writing: [Errno 13] Permission denied: './1737877712.mp4.part'
+2025-01-26 13:18:39,744 - ERROR - Failed to download the video. Error: ERROR: unable to open for writing: [Errno 13] Permission denied: './1737877712.mp4.part'
+2025-01-26 13:22:46,956 - INFO - Starting download for URL: https://youtube.com/shorts/QfLXKr9QDI8?si=hujPqAzrSxXPMfUp
+2025-01-26 13:22:53,665 - ERROR - Error during download: ERROR: unable to open for writing: [Errno 13] Permission denied: './1737877966.mp4.part'
+2025-01-26 13:22:53,665 - ERROR - Failed to download the video. Error: ERROR: unable to open for writing: [Errno 13] Permission denied: './1737877966.mp4.part'
+2025-01-26 13:26:21,125 - INFO - Starting download for URL: http://neeraj.tools.local/tools
+2025-01-26 13:26:23,542 - ERROR - Error during download: ERROR: Unsupported URL: http://neeraj.tools.local/tools
+2025-01-26 13:26:23,542 - ERROR - Failed to download the video. Error: ERROR: Unsupported URL: http://neeraj.tools.local/tools
+2025-01-26 13:26:37,924 - INFO - Starting download for URL: https://youtube.com/shorts/QfLXKr9QDI8?si=hujPqAzrSxXPMfUp
+2025-01-26 13:26:43,508 - INFO - Download completed successfully: ./1737878197.mp4
+2025-01-26 13:26:43,508 - INFO - Moved the downloaded file to: /home/neeraj/Public/neeraj/laravel_11/Laravel-python/magicTools/storage/app/public/videos/
+2025-01-26 13:26:43,509 - INFO - Downloaded file: /home/neeraj/Public/neeraj/laravel_11/Laravel-python/magicTools/storage/app/public/videos/1737878197.mp4
+2025-01-26 13:27:26,572 - INFO - Starting download for URL: https://youtube.com/shorts/QfLXKr9QDI8?si=hujPqAzrSxXPMfUp
+2025-01-26 13:27:33,541 - ERROR - Error during download: ERROR: unable to open for writing: [Errno 13] Permission denied: './1737878246.mp4.part'
+2025-01-26 13:27:33,541 - ERROR - Failed to download the video. Error: ERROR: unable to open for writing: [Errno 13] Permission denied: './1737878246.mp4.part'
+2025-01-26 13:31:17,866 - INFO - Starting download for URL: https://youtube.com/shorts/QfLXKr9QDI8?si=hujPqAzrSxXPMfUp
+2025-01-26 13:31:23,955 - ERROR - Error during download: ERROR: unable to open for writing: [Errno 13] Permission denied: './1737878477.mp4.part'
+2025-01-26 13:31:23,955 - ERROR - Failed to download the video. Error: ERROR: unable to open for writing: [Errno 13] Permission denied: './1737878477.mp4.part'

@@ -32,16 +32,16 @@ def download_video(url, save_path='.'):
             # logging.info(f"Download completed successfully: {file_name}")
 
             # Move the downloaded file to Laravel storage directory
-            storage_path = '/home/neeraj/Public/neeraj/laravel_11/Laravel-python/magicTools/storage/app/public/videos/'  # Specify your Laravel storage path here
-            if not os.path.exists(storage_path):
-                os.makedirs(storage_path)
+            # storage_path = '/home/neeraj/Public/neeraj/laravel_11/Laravel-python/magicTools/storage/app/public/videos/'  # Specify your Laravel storage path here
+            # if not os.path.exists(storage_path):
+            #     os.makedirs(storage_path)
 
-            # Move the file to the storage path
-            shutil.move(file_name, os.path.join(storage_path, os.path.basename(file_name)))
+            # # Move the file to the storage path
+            # shutil.move(file_name, os.path.join(storage_path, os.path.basename(file_name)))
             # logging.info(f"Moved the downloaded file to: {storage_path}")
 
             # Return the file path in storage
-            return os.path.join(storage_path, os.path.basename(file_name))
+            return file_name
 
     except Exception as e:
         logging.error(f"Error during download: {str(e)}")
@@ -53,7 +53,7 @@ video_url = sys.argv[1] if len(sys.argv) > 1 else None
 # Download the video and handle errors
 if video_url:
     try:
-        downloaded_file = download_video(video_url)
+        downloaded_file = download_video(video_url,'/home/neeraj/Public/neeraj/laravel_11/Laravel-python/magicTools/storage/app/public/videos')
         logging.info(f"Downloaded file: {downloaded_file}")
     except Exception as e:
         logging.error(f"Failed to download the video. Error: {str(e)}")
